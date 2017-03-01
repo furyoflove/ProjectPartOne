@@ -4,6 +4,47 @@
   CSS for project part one CS1520
 */
 
+
 body {
+
   background: url("http://www.designbolts.com/wp-content/uploads/2013/02/Pineapple-cut-Grey-Seamless-Pattern-For-Website-Background.jpg");
+  font-family: "Verdana", Geneva, sans-serif;
+
+  /* Center header in the middle (vertically and horiztonally) of the page */
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+ul {
+
+  list-style-type: none;
+
+}
+
+li {
+
+  display: inline;
+
+}
+
+li a {
+
+  padding: 8px;
+
+}
+
+.explanation {
+
+  font-style: italic;
+
+}
+
+.line {
+
+  border-bottom: 1px solid;
+
 }
