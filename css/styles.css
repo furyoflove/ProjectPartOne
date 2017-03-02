@@ -1,7 +1,7 @@
 /*
   Author: Francis Keith Mangornong
 
-  CSS for project part one CS1520
+  CSS for Project Part 1 CS 1520
 */
 
 
@@ -19,25 +19,49 @@ body {
 
 }
 
-ul {
+.links ul {
+
+  /* Remove the bullets for the list item */
+  list-style-type: none;
+
+}
+
+.links li {
+
+  /* Display links next to each other */
+  display: inline;
+
+}
+
+.links li a {
+
+  /* Spacing between links */
+  padding: 8px;
+
+  color: grey;
+  font-weight: bold;
+
+}
+
+.socialmedia p {
+
+  font-weight: bold;
+
+}
+
+.socialmedia ul {
 
   list-style-type: none;
 
 }
 
-li {
+.socialmedia li a {
 
-  display: inline;
-
-}
-
-li a {
-
-  padding: 8px;
+  color: black;
 
 }
 
-.explanation {
+.description {
 
   font-style: italic;
 
@@ -45,6 +69,9 @@ li a {
 
 .line {
 
-  border-bottom: 1px solid;
+  border-bottom: 3px solid;
+
+  /* Adds a shadow to the line */
+  box-shadow: 3px 3px 5px grey;
 
 }
