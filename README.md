@@ -1,4 +1,8 @@
 
 # This is the repo for the first part of my project for CS 1520
 
-## To load my website save all files locally and then load the index
+To run the website:
+
+  Use XAMPP
+  Save ProjectPartOne folder into localhost
+  Then load ProjectPartOne or move to index.html
