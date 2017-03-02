@@ -75,3 +75,31 @@ body {
   box-shadow: 3px 3px 5px grey;
 
 }
+
+form {
+
+  display: inline-block;
+  padding: 12px 20px;
+  border: 3px solid grey;
+  border-radius: 4px;
+  box-shadow: 3px 3px 5px grey;
+
+}
+
+form legend {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+form label {
+
+  float: left;
+
+}
+
+form textarea {
+
+  margin-left: 10px;
+  resize: none;
+
+}
